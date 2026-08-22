@@ -1,0 +1,15 @@
+name = "hex-conway"
+defaultTargets = ["HexConway"]
+
+leanOptions = [
+  { name = "doc.verso", value = true },
+  { name = "doc.verso.suggestions", value = false },
+]
+
+[[require]]
+name = "HexBerlekamp"
+git = "https://github.com/leanprover/hex-berlekamp.git"
+rev = "80c55f4aa9311583a259850e0aeea3b2c8cccc68"
+
+[[lean_lib]]
+name = "HexConway"
