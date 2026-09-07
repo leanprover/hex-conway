@@ -9,22 +9,27 @@ leanOptions = [
 [[require]]
 name = "HexBerlekamp"
 git = "https://github.com/leanprover/hex-berlekamp.git"
-rev = "1abc06a7bf0a0fb570116f88df049a412df7187a"
+rev = "209314f5bbaf5d341c9240451e6bb144ffceaa00"
 
 [[require]]
 name = "HexArith"
 git = "https://github.com/leanprover/hex-arith.git"
-rev = "ea246536c442464a68210ecce973eb7708968f59"
+rev = "cffb477db5d3ec87a4ef5c9466065e2e7ae03633"
 
 [[require]]
 name = "HexPolyFp"
 git = "https://github.com/leanprover/hex-poly-fp.git"
-rev = "ab1e4419cc16a219d0432bc1c535a8430385d329"
+rev = "6bb30a50196b830b5faeead8580b1bd889069717"
 
 [[require]]
 name = "HexGFqRing"
 git = "https://github.com/leanprover/hex-gfq-ring.git"
-rev = "c8e9ae656852744edb51cdf11801248085a7a8d5"
+rev = "66328df93743f7a928c183f9c9d6c600185f1436"
+
+[[require]]
+name = "HexPrimality"
+git = "https://github.com/leanprover/hex-primality.git"
+rev = "3a0a1c4c5fae6d6aa7a6893dfcf26199bd043ffb"
 
 [[lean_lib]]
 name = "HexConway"
